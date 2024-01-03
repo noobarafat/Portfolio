@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body.flex-container{
+    display: flex;
+}
+.section1{
+    background-image: url('Images/Picsart_24-01-03_02-19-29-753.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#main-heading{
+    color: azure;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 60px;
+    padding: 5px 65px 0px 40px ;
+    text-align: right;
+}
+
+#arafat{
+    color: red; 
+}
+
+#scroll{
+    color: white;
+    margin-left: 50px;
+    margin-top: 590px;
+    font-size: 30px;
+    border: 2px solid white;
+    width:fit-content;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(116, 120, 179);
+    text-shadow: 5px 5px 10px white;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 3px 3px 8px hsl(0, 5%, 60%);
+    border-radius: 25px;
+}
+
+.section2{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+
+}
+
+    
+
+#Facts{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 40px;
+
+}
+
+.top-facts{
+    border: 2px solid white;
+    width: 25%;
+   margin: 10px 20px 50px 20px;
+   border: 2px solid white;
+   border-radius: 20px;
+   padding: 13px;
+   text-align: justify;
+   background-color: rgb(82, 107, 107);
+   
+
+}
+
+.fact-head{
+    color: blue;
+}
+
+
+.section3{
+background-color:  rgb(82, 107, 107);
+height: 80vh;
+flex-direction: column;
+display: flex;
+align-items:end;
+
+}
+
+#photo1{
+    width:30.0%;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: gray;
+    height: 10vh;
+    text-align: center;
+    padding-top: 28px;
+}
